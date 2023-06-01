@@ -15,8 +15,10 @@ class Ventana:
         self.root = root_mainloop
         self.registro = modelo.LogsRegistro()
         self.instruc_princ = Label(
-            master=self.root
+            master=self.root,
+            text=f"Version del programa: {modelo.__version__} \n INGRESAR LOG: "
         )
+        self.instruc_princ.pack()
 
         def obtener_texto():
             texto = self.caja_mensaje.get("1.0", END)
