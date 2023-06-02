@@ -22,7 +22,7 @@ class Ventana:
 
         def obtener_texto():
             texto = self.caja_mensaje.get("1.0", END)
-            self.registro.log_mañana(texto)
+            self.registro.entrada_log(texto)
 
         # Entrada de mensaje
         self.caja_mensaje = Text(
