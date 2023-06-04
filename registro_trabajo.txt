@@ -1,0 +1,349 @@
+INFO:root:Inicio laptop > 2023-06-01 10:40:14<
+INFO:root:Inicio laptop > 2023-06-01 10:41:01<
+INFO:root:2023-06-01 10:41:09 hs.| Espectativas: dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+
+INFO:root:Inicio app alfa-00 > 2023-06-01 10:46:02<
+INFO:root:2023-06-01 10:46:07 hs.| Espectativas: 1
+
+INFO:root:Inicio app alfa-00 > 2023-06-01 11:06:02<
+INFO:root:Inicio app alfa-00 > 2023-06-01 11:09:33<
+INFO:root:2023-06-01 11:10:03 hs.| Espectativas: la app se inici� con windows por primera vez
+
+INFO:root:Inicio app alfa-00 > 2023-06-01 11:13:13<
+INFO:root:Inicio app alfa-00 > 2023-06-01 11:14:07<
+INFO:root:2023-06-01 11:14:31 hs.| Espectativas: (para iniciar sin terminales)
+
+INFO:root:Inicio app alfa-00 > 2023-06-01 11:18:25<
+INFO:root:Inicio app alfa-00 > 2023-06-01 11:22:27<
+INFO:root:Inicio app alfa-00 > 2023-06-01 11:23:40<
+INFO:root:Inicio app alfa-00 > 2023-06-01 11:25:39<
+INFO:root:2023-06-01 11:29:19 hs.| Espectativas: Bueno, creo que por hoy est� bien. (guardado en https://github.com/gab-mol/app_log_trabajo)
+
+INFO:root:Inicio app alfa-00 > 2023-06-02 06:12:51<
+INFO:root:2023-06-02 06:15:15 hs.| Espectativas: Proseguir con estad�sica acidos grasos. Avanzar algo m�s con esta app
+
+2023-06-02 06:40:05,999 - INFO - Inicio app alfa-00 > 2023-06-02 06:40:05<
+2023-06-02 06:40:10,189 - INFO - 2023-06-02 06:40:10 hs.| Espectativas: pr
+
+2023-06-02 06:40:20,443 - INFO - Inicio app alfa-00 > 2023-06-02 06:40:20<
+2023-06-02 06:40:38,509 - INFO - 2023-06-02 06:40:38 hs.| Espectativas: eÉ@
+
+2023-06-02 06:44:05,711 - INFO - Inicio app alfa-00 > 2023-06-02 06:44:05<
+2023-06-02 07:06:32,496 - INFO - Inicio app alfa-00
+2023-06-02 07:07:10,814 - INFO - Inicio app alfa-00
+2023-06-02 07:07:43,548 - INFO - 2023-06-02 07:07:43 hs.| Espectativas: esto es un mensaje largo para ver si fun
+
+2023-06-02 07:20:38,848 - Inicio app alfa-00
+2023-06-02 07:21:02,795 - alfa-00 hs.| Espectativas: los saltos de linea son medio complejos
+
+2023-06-02 07:24:05,204 - Inicio app alfa-00
+2023-06-02 07:24:10,243 - hs. appalfa-00 | Espectativas: ffffffffff
+
+2023-06-02 08:16:44,988 hs. Inicio app alfa-01
+2023-06-02 08:17:20,784 hs. hs. appalfa-01| Espectativas:se instalo el editor de politicas de grupo. se agregó el lanzador a logof
+
+2023-06-02 08:18:43,429 hs. Inicio app alfa-01
+2023-06-02 08:18:53,802 hs. hs. appalfa-01| Espectativas:con reiniciar no funciona
+
+2023-06-02 08:19:52,017 hs. Inicio app alfa-01
+2023-06-02 08:20:18,694 hs. hs. appalfa-01| Espectativas:no funciona solo agregando el lanzador ahí evidentemente
+############################################################################################################################################################
+
+
+18:26:46 | App: alfa-01
+	2023-06-02 18:27:43 | hs. appalfa-01| Acontecido:probablemente la extensión txt sea mejor para esto.
+
+18:42:34 | App: alfa-01
+	2023-06-02 18:42:53 | hs. appalfa-01| Acontecido: pppppppppppppppppppppppppppppppppppppppppppppppprrrrrrrrrrrrrrrrrrrrrrrrrrrrrrruuuuuuuuuuuuuueeeeeeeeeeeeeeeeeeeeeeebbbbbbbbbbbbbbbbbbbbaaaaaaaaaaaaaa
+
+18:46:55 | App: alfa-01
+	2023-06-02 18:47:13 | hs. appalfa-01| Acontecido: pppppppppppppppppprrrrrrrrrrrrrrrrrrrrrrrrrrrrruuuuuuuuuuuuuuuuuuuuuuuuuuuuueeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+18:49:52 | App: alfa-01
+18:54:19 | App: alfa-01
+10:27:13 | App: alfa-01
+10:29:29 | App: alfa-01
+10:37:11 | App: alfa-01
+10:37:49 | App: alfa-01
+	2023-06-04 10:38:10 | hs. appalfa-01| Espectativas: intentando
+ arreglar modelo. Salto de lineaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+10:40:54 | App: alfa-01
+10:46:17 | App: alfa-01
+	2023-06-04 10:46:20 | 	hs. appalfa-01| Espectativas: pppppppppp
+	pppppppprrrrrrrrrrrrrrrrrrrrrrrrrrrrruuu
+	uuuuuuuuuuuuuuuuuuuuuuuuuueeeeeeeeeeeeee
+	eeeeeeeeeeeeeeeebbbbbbbbbbbbbbbbbbbbbbbb
+	bbbbbbbbbbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaapppppppppppppppppprrrrrrrrrrrrrrrr
+	rrrrrrrrrrrrruuuuuuuuuuuuuuuuuuuuuuuuuuu
+	uueeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbbbbbb
+	bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaapppppppppppppppppp
+	rrrrrrrrrrrrrrrrrrrrrrrrrrrrruuuuuuuuuuu
+	uuuuuuuuuuuuuuuuuueeeeeeeeeeeeeeeeeeeeee
+	eeeeeeeebbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+	bbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+	2023-06-04 10:46:21 | 	hs. appalfa-01| Espectativas: pppppppppp
+	pppppppprrrrrrrrrrrrrrrrrrrrrrrrrrrrruuu
+	uuuuuuuuuuuuuuuuuuuuuuuuuueeeeeeeeeeeeee
+	eeeeeeeeeeeeeeeebbbbbbbbbbbbbbbbbbbbbbbb
+	bbbbbbbbbbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaapppppppppppppppppprrrrrrrrrrrrrrrr
+	rrrrrrrrrrrrruuuuuuuuuuuuuuuuuuuuuuuuuuu
+	uueeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbbbbbb
+	bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaapppppppppppppppppp
+	rrrrrrrrrrrrrrrrrrrrrrrrrrrrruuuuuuuuuuu
+	uuuuuuuuuuuuuuuuuueeeeeeeeeeeeeeeeeeeeee
+	eeeeeeeebbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+	bbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+10:47:46 | App: alfa-01
+	2023-06-04 10:47:52 | 	hs. appalfa-01| Espectativas: 1111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+
+	2023-06-04 10:47:53 | 	hs. appalfa-01| Espectativas: 1111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+	1111111111111111111111111111111111111111111111111111111111111111
+
+04-06-2023 | App: alfa-01
+	10:51:38 hs. | 	hs. appalfa-01| Espectativas: pppppppprrrrrrrrrrrrrrrrrrrrrrrrrr
+	rrruuu
+	uuuuuuuuuuuuuuuuuuuuuuuuuueeeeeeeeeeeeee
+	eeeeeeeeeeeeee
+	eebbbbbbbbbbbbbbbbbbbbbbbb
+	bbbbbbbbbbbbbbbbbbaaaaaaaaaaaaaaaaaa
+	aaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaapppppppppp
+	pppppppprrrrrrrrrrrrrrrr
+	rrrrrrrrrrrrruuuuuuuuuuuuuuuuuuuuuuuuu
+	uu
+	uueeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbbbbbb
+	bbbbbbbbbbbbbbbbbb
+	bbbbbbbbbbbbbbbbaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	
+	aaaaaaaaaaaaaaaaaaaaaapppppppppppppppppp
+	rrrrrrrrrrrrrrrrrrrr
+	rrrrrrrrruuuuuuuuuuu
+	uuuuuuuuuuuuuuuuuueeeeeeeeeeeeeeeeeeeeee
+	
+	eeeeeeeebbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+	bbbbbbbbbbaaaaaaaaaaaa
+
+	10:52:07 hs. | 	hs. appalfa-01| Espectativas: oooooooooooooooooooooooooooooooooo
+	oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+	oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+	oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+	oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+	oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+	10:52:17 hs. | 	hs. appalfa-01| Espectativas: oooooooooooooooooooooooooooooooooo
+	oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+	oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+	oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+	oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+	oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+04-06-2023 | App: alfa-01
+04-06-2023|app v.: alfa-01| Espectativas:
+	10:58:09 hs. | 	appalfa-01| Espectativas: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+
+anteult
+ultima
+04-06-2023 | App: alfa-01
+04-06-2023|app v.: alfa-01| Espectativas:
+	11:30:50 hs. | 	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+04-06-2023|app v.: alfa-01| Espectativas:
+	11:31:02 hs. | 	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+04-06-2023|app v.: alfa-01| Espectativas:
+	11:31:03 hs. | 	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+04-06-2023|app v.: alfa-01| Espectativas:
+	11:31:04 hs. | 	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+04-06-2023 | App: alfa-01
+	11:33:10 hs. | 	mensajemensajemensajemensajemensajemensajemensajemensajemensajem
+	ensajemensajemensajemensajemensajemensajemensajemensajemensajeme
+	nsajemensajemensajemensajemensajemensajemensajemensajemensajemen
+	sajemensajemensajemensajemensajemensajemensajemensajemensajemens
+	ajemensajemensajemensajemensajemensajemensajemensajemensajemensa
+	jemensajemensajemensajemensajemensajemensajemensajemensajemensaj
+	emensajemensajemensajemensajemensajemensajemensajemensajemensaje
+	mensajemensajemensajemensajemensajemensajemensajemensajemensajem
+
+	11:33:13 hs. | 	mensajemensajemensajemensajemensajemensajemensajemensajemensajem
+	ensajemensajemensajemensajemensajemensajemensajemensajemensajeme
+	nsajemensajemensajemensajemensajemensajemensajemensajemensajemen
+	sajemensajemensajemensajemensajemensajemensajemensajemensajemens
+	ajemensajemensajemensajemensajemensajemensajemensajemensajemensa
+	jemensajemensajemensajemensajemensajemensajemensajemensajemensaj
+	emensajemensajemensajemensajemensajemensajemensajemensajemensaje
+	mensajemensajemensajemensajemensajemensajemensajemensajemensajem
+
+04-06-2023 | App: alfa-01
+	11:36:01 hs. | 	mensajemensajemensajemensajemensajemensajemensajemensajemensajem
+	ensajemensajemensajemensajemensajemensajemensajemensajemensajeme
+	nsajemensajemensajemensajemensajemensajemensajemensajemensajemen
+	sajemensajemensajemensajemensajemensajemensajemensajemensajemens
+	ajemensajemensajemensajemensajemensajemensajemensajemensajemensa
+	jemensajemensajemensajemensajemensajemensajemensajemensajemensaj
+	emensajemensajemensajemensajemensajemensajemensajemensajemensaje
+	mensajemensajemensajemensajemensajemensajemensajemensajemensajem
+	ensajemensajemensajemensajemensajemensajemensajemensajemensajeme
+	nsajemensajemensajemensajemensajemensajemensajemensajemensajemen
+	sajemensajemensajemensajemensajemensajemensajemensajemensajemens
+	ajemensajemensajemensajemensajemensajemensajemensajemensajemensa
+
+	11:36:11 hs. | 	mensajemensajemensajemensajemensajemensajemensajemensajemensajem
+	ensajemensajemensajemensajemensajemensajemensajemensajemensajeme
+	nsajemensajemensajemensajemensajemensajemensajemensajemensajemen
+	sajemensajemensajemensajemensajemensajemensajemensajemensajemens
+	ajemensajemensajemensajemensajemensajemensajemensajemensajemensa
+	jemensajemensajemensajemensajemensajemensajemensajemensajemensaj
+	emensajemensajemensajemensajemensajemensajemensajemensajemensaje
+	mensajemensajemensajemensajemensajemensajemensajemensajemensajem
+	ensajemensajemensajemensajemensajemensajemensajemensajemensajeme
+	nsajemensajemensajemensajemensajemensajemensajemensajemensajemen
+	sajemensajemensajemensajemensajemensajemensajemensajemensajemens
+	ajemensajemensajemensajemensajemensajemensajemensajemensajemensa
+
+04-06-2023 | App: alfa-01
+	11:38:16 hs. | 	mensajemensajemensajemensajemensajemensajemensajemensajemensajem
+	ensajemensajemensajemensajemensajemensajemensajemensajemensajeme
+	nsajemensajemensajemensajemensajemensajemensajemensajemensajemen
+	sajemensajemensajemensajemensajemensajemensajemensajemensajemens
+	ajemensajemensajemensajemensajemensajemensajemensajemensajemensa
+	jemensajemensajemensajemensajemensajemensajemensajemensajemensaj
+	emensajemensajemensajemensajemensajemensajemensajemensajemensaje
+	mensajemensajemensajemensajemensajemensajemensajemensajemensajem
+	ensajemensajemensajemensajemensajemensajemensajemensaje
+04-06-20
+
+	
+	
+	
+	
+	
+	
+		logloglogloglogloglogloglogloglogloglogloglogloglogloglogloglogl
+	oglogloglogloglogloglogloglogloglogloglogloglogloglogloglogloglo
+	glogloglogloglogloglogloglogloglogloglogloglogloglogloglogloglog
+	logloglogloglogloglogloglogloglogloglogloglogloglogloglogloglogl
+	oglogloglogloglogloglogloglogloglogloglogloglogloglogloglogloglo
+	glogloglogloglogloglogloglogloglogloglogloglogvv
+12:13:04 hs. | 
+
+	logloglogloglogloglogloglogloglogloglogloglogloglogloglogloglogl
+	oglogloglogloglogloglogloglogloglogloglogloglogloglogloglogloglo
+	glogloglogloglogloglogloglogloglogloglogloglogloglogloglogloglog
+	logloglogloglogloglogloglogloglogloglogloglogloglogloglogloglogl
+	oglogloglogloglogloglogloglogloglogloglogloglogloglogloglogloglo
+	gloglogloglogloglogloglogloglogloglogloglog
+12:15:33 hs. | Espec
+
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+	gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+	gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+	gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+	gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+	gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+	gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+

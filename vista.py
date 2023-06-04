@@ -3,7 +3,6 @@ Vista aplicacion logs de trabajo.
 '''
 
 from tkinter import Label, Entry, StringVar, Button, Text, END
-from tkinter import messagebox
 
 import modelo
 
