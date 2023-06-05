@@ -38,7 +38,7 @@ def ver_ult_lin():
 
 
 def formateador(mensaje_m:str, salto:int) -> str:
-    '''Inserta los saltos de linea'''
+    '''Inserta los saltos de linea. OBSOLETA'''
     linea = ""
     log = ""
     ultima =""
@@ -61,6 +61,28 @@ def formateador(mensaje_m:str, salto:int) -> str:
 
     return log
 
+def formateador_opt(mensaje_m: str, salto: int) -> str:
+    '''Había olvidado que los str son inmutables...
+    >Es mejor usar usar listas para esto.
+    > "//" es un operador que devuelve el resul entero de
+    la dividisión.'''
+    lineas = []
+    linea_actual = ""
+    nlinea = 0
+
+    for caracter in mensaje_m:
+        linea_actual += caracter
+        if len(linea_actual) == salto:
+            lineas.append("\t" + linea_actual)
+            linea_actual = ""
+            nlinea += 1
+        if nlinea >= len(mensaje_m) // salto:
+            lineas.append(caracter)
+    
+    log = "\n".join(lineas)
+    return log
+
+
 class LogsRegistro:
     '''Metodos de registro y su configuración'''
     def __init__(self):
@@ -82,14 +104,14 @@ class LogsRegistro:
         if HoFe.h() < self.h_corte:
             mensaje_m = f'{HoFe.hora()} | Espectativas: ' + mensaje
             print(mensaje_m)
-            log = formateador(mensaje_m, self.salto)
+            log = formateador_opt(mensaje_m, self.salto)
             with open(self.archivo , 'a') as archivo:
                 print("esto es lo que se guarda:\n")
                 print(log)
                 archivo.write(f'{log}' + self.divisor)
         else:
             mensaje_m = f'{HoFe.hora()} | Acontecido: ' + mensaje
-            log = formateador(mensaje_m, self.salto)
+            log = formateador_opt(mensaje_m, self.salto)
             with open(self.archivo , 'a') as archivo:
                 print("esto es lo que se guarda:\n")
                 print(log)
