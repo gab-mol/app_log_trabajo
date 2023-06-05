@@ -16,7 +16,7 @@ class Controlador:
 if __name__=="__main__":
     print("")
     print("|||||||||||||| <Aplicación personal para registro de trabajo> ||||||||||||||")
-    print("\t\t    -Version del programa:", __version__)
+    print("\t\t    - Version del programa:", __version__)
     print("\t\t   -",__copyright__)
     print("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
     print("")

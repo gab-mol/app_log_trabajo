@@ -347,3 +347,137 @@ ultima
 	gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
 	gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
 
+	06:41:07 hs. | Espectativas:cccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+	06:41:13 hs. | Espectativas:cccccccccccccccccccccccccccccccccccc
+	cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+	07:09:27 hs. | Espectativas:deberia cortar bien el mensaje en li
+	neas PRRRRRRRRRRRRRRRRRRRRRRRRRUUUUUUUUUUUUUUUUEEEEEEEEEEEEEEEBB
+	BBBBBBBBBBBAAAAAAAAAAAAAAAA
+	#-fin-log-#
+	07:11:18 hs. | Espectativas:pone fecha?
+
+	07:17:18 hs. | Espectativas: fffffffffffffffffffffffffffffffffff
+	fffffffffffffffffffffffff
+
+##	07:19:00 hs. | Espectativas: dddddddddddddddddddddd
+
+	##	07:22:09 hs. | Espectativas: mas pruebas
+
+	##
+
+05-06-2023 | App: alfa-02
+	07:23:15 hs. | Espectativas: |||||||||||||||||||||||||||||||||||
+	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+	|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+	##
+
+05-06-2023 | App: alfa-02
+	
+	07:24:13 hs. | Acontecido: tardddddeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+	eeeeeeeeeeeeeeeeeeeeeeeeeee
+
+		--05-06-2023--
+#-fin-log-#
+05-06-2023 | App: alfa-02	##
+
+05-06-2023 | App: alfa-02
+	##
+
+05-06-2023 | App: alfa-02
+	##
+
+05-06-2023 | App: alfa-02
+							##
+
+05-06-2023 | App: alfa-02
+							##
+
+05-06-2023 | App: alfa-02
+							##
+
+05-06-2023 | App: alfa-02
+							##
+	07:37:37 hs. | Espectativas: no deberia
+
+							##
+	
+	07:40:03 hs. | Acontecido: tarde simulada
+
+		--05-06-2023--
+#-fin-log-#	07:41:35 hs. | Espectativas: hoy tengo que -...... y xxxxxx (sim
+	mulado)
+
+	-
+	
+	07:42:09 hs. | Acontecido: hoy se consigui�.... xxxxxxxxxxxxxxxx
+	xxxxxxxxxxxxxxxxxxx y eso (simulado)
+
+		--05-06-2023--
+#-fin-log-#	07:43:02 hs. | Espectativas: ma�ana
+
+	-
+	
+	07:43:17 hs. | Acontecido: tarde
+
+		--05-06-2023--
+#-fin-log-#
+
+05-06-2023 | App: alfa-03
+	-
+	07:48:09 hs. | Espectativas: a
+
+	-
+
+05-06-2023 | App: alfa-03
+	-
+
+05-06-2023 | App: alfa-03
+	-
+
+05-06-2023 | App: alfa-03
+	-
+
+05-06-2023 | App: alfa-03
+	-
+
+05-06-2023 | App: alfa-03
+	-
+
+05-06-2023 | App: alfa-03
+	-
+
+05-06-2023 | App: alfa-03
+	-
+
+05-06-2023 | App: alfa-03-
+
+05-06-2023 | App: alfa-03-
+
+05-06-2023 | App: alfa-03
+-
+
+05-06-2023 | App: alfa-03
+-
+	07:57:55 hs. | Espectativas: ahora deberia dejar de imprimir mas
+	s de una vez por dia la cabezera fecha
+
+-
+		07:58:34 hs. | Acontecido: fin
+
+		--05-06-2023--
+#-fin-log-#
+
+05-06-2023 | App: alfa-03
+-
+	08:04:08 hs. | Espectativas: (real) hoy se formateo el logueo. S
+	Se espera avazar con la estadistica de acidos grasos
+-
+	08:05:02 hs. | Acontecido: por que repite una letra...?
+
+	--05-06-2023--
+#-fin-log-#

@@ -1,11 +1,6 @@
 '''
 Para dejar un registro de lo que se hace cada día de laboratorio/oficina.
 '''
-__author__ = "Gabriel Molina"
-__maintainer__ = "Gabriel Molina"
-__email__ = "g-abox@hotmail.com"
-__copyright__ = "Copyright 2023/06"
-__version__ = "alfa-02"
 
 import time
 import os
@@ -26,9 +21,15 @@ class HoFe:
         fecha = time.strftime("%d-%m-%Y", time.localtime(time.time()))
         return fecha
 
+__author__ = "Gabriel Molina"
+__maintainer__ = "Gabriel Molina"
+__email__ = "g-abox@hotmail.com"
+__version__ = "alfa-03"
+__copyright__ = f"Copyright {HoFe.fecha()}"
+
 
 def ver_ult_lin():
-    '''Esta funcion verifica si el ultimo log es '''
+    '''Esta funcion verifica si el ultimo log es "self.divisor"'''
     with open('registro_trabajo.txt', 'r') as archivo:
         ultima_linea = None
         for linea in archivo:
@@ -40,44 +41,59 @@ def formateador(mensaje_m:str, salto:int) -> str:
     '''Inserta los saltos de linea'''
     linea = ""
     log = ""
+    ultima =""
+    nlinea = 0
+
+    # n de lineas completas. (la última suele no serlo!)
+    nlinenteras = int(len(mensaje_m)/salto)
+    
+    # bucle recorre el mensaje y corta en lineas
+    # ! -> para no cortar última linea: segundo if
     for i in mensaje_m:
         linea = linea + i
         if len(linea) == salto:
             log = log + "\t" + linea + "\n"
             linea = ""
-        
+            nlinea = nlinea + 1
+        if nlinea >= nlinenteras:
+            ultima = ultima + i
+    log = log + "\t" + ultima
+
     return log
 
 class LogsRegistro:
+    '''Metodos de registro y su configuración'''
     def __init__(self):
         ruta_main = os.path.dirname(__file__)
         self.archivo = os.path.join(ruta_main, 'registro_trabajo.txt')
-        
+        self.divisor = '-\n'
+        self.final = "\n#-fin-log-#\n"
+        self.h_corte = 12
+        self.salto = 64
         # la fecha y la version solo se imprime a la mañana
-        if ver_ult_lin()=='#-fin-log-#':
+        ult = ver_ult_lin()
+        if not ult == self.divisor:
             with open(self.archivo , 'a') as archivo:
-                archivo.write(f'\n{HoFe.fecha()} | App: {__version__}\n')
+                archivo.write(f'\n{HoFe.fecha()} | App: {__version__}\n{self.divisor}')
 
 
-    def entrada_log(self, mensaje:str):
-        salto = 64
-        
+    def entrada_log(self, mensaje:str):        
         # modifica cabecera y final segun am o pm
-        if HoFe.h() < 14:
-            mensaje_m = f'{HoFe.hora()} | Espectativas:' + mensaje
+        if HoFe.h() < self.h_corte:
+            mensaje_m = f'{HoFe.hora()} | Espectativas: ' + mensaje
             print(mensaje_m)
-            log = formateador(mensaje_m, salto)
+            log = formateador(mensaje_m, self.salto)
             with open(self.archivo , 'a') as archivo:
                 print("esto es lo que se guarda:\n")
                 print(log)
-                archivo.write(f'{log}\n')
+                archivo.write(f'{log}' + self.divisor)
         else:
-            mensaje_m = f'{HoFe.hora()} | Acontecido:' + mensaje
-            log = formateador(mensaje_m, salto)
+            mensaje_m = f'{HoFe.hora()} | Acontecido: ' + mensaje
+            log = formateador(mensaje_m, self.salto)
             with open(self.archivo , 'a') as archivo:
                 print("esto es lo que se guarda:\n")
                 print(log)
-                archivo.write(f'\t{log}\n--{HoFe.fecha()}--\n#-fin-log-#')
+                archivo.write(f'{log}\n\t--{HoFe.fecha()}--{self.final}')
     
 # NO ESTOY PUDIENDO HACER UN SALTO DE LINEA QUE NO CORTE LA ULTIMA LINEA
 
