@@ -24,7 +24,7 @@ class HoFe:
 __author__ = "Gabriel Molina"
 __maintainer__ = "Gabriel Molina"
 __email__ = "g-abox@hotmail.com"
-__version__ = "Beta-01"
+__version__ = "Beta-02"
 __copyright__ = f"Copyright {HoFe.fecha()}"
 
 global RUTA_REGISTRO
@@ -38,6 +38,13 @@ def ver_ult_lin():
         for linea in archivo:
             ultima_linea = linea
     return ultima_linea
+
+def finlog(intvar):
+    if HoFe.h() < 12:
+        intvar.set(value=0)
+    else:
+        intvar.set(value=1)
+    return intvar
 
 
 def formateador(mensaje_m:str, salto:int) -> str:
@@ -106,10 +113,10 @@ class LogsRegistro:
                 archivo.write(f'\n{HoFe.fecha()} | App: {__version__}\n{self.divisor}')
 
 
-    def entrada_log(self, mensaje:str):        
+    def entrada_log(self, mensaje:str, checkbotv:int):        
         # modifica cabecera y final segun am o pm
         if HoFe.h() < self.h_corte:
-            mensaje_m = f'{HoFe.hora()} | Espectativas: ' + mensaje
+            mensaje_m = f'{HoFe.hora()} | Mañana: ' + mensaje
             print(mensaje_m)
             log = formateador(mensaje_m, self.salto)
             with open(self.archivo , 'a') as archivo:
@@ -117,12 +124,15 @@ class LogsRegistro:
                 print(log)
                 archivo.write(f'{log}' + self.divisor)
         else:
-            mensaje_m = f'{HoFe.hora()} | Acontecido: ' + mensaje
+            mensaje_m = f'{HoFe.hora()} | Tarde: ' + mensaje
             log = formateador(mensaje_m, self.salto)
             with open(self.archivo , 'a') as archivo:
                 print("esto es lo que se guarda:\n")
                 print(log)
-                archivo.write(f'{log}\n\t--{HoFe.fecha()}--{self.final}')
+                if checkbotv == 1:
+                    archivo.write(f'{log}\n\t--{HoFe.fecha()}--{self.final}')
+                else:
+                    archivo.write(f'{log}' + self.divisor)
     
 
 if __name__ == "__main__":

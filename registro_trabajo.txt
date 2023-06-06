@@ -650,3 +650,10 @@ e
 -
 	07:06:20 hs. | Espectativas: Beta!!!
 -
+	11:49:36 hs. | Espectativas: no estaria funcionando poner el lan
+	nzador en la carpeta de shutdown de gpedit.msc
+-
+	13:56:48 hs. | Acontecido: cccccc
+-
+	14:02:29 hs. | Acontecido: dddddddddddd
+-
