@@ -502,3 +502,10 @@ ultima
 
 	--05-06-2023--
 #-fin-log-#
+
+06-06-2023 | App: alfa-03
+-
+	06:12:59 hs. | Espectativas: la app está en desarrollo aun. Pero
+	 bue, vamos a registrar eso mismo. Y que ayer se le entrego a Fe
+	er lo de acidos grasos
+-
