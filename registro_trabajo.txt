@@ -505,7 +505,148 @@ ultima
 
 06-06-2023 | App: alfa-03
 -
-	06:12:59 hs. | Espectativas: la app está en desarrollo aun. Pero
+	06:12:59 hs. | Espectativas: la app estï¿½ en desarrollo aun. Pero
 	 bue, vamos a registrar eso mismo. Y que ayer se le entrego a Fe
 	er lo de acidos grasos
+-
+
+05-06-2023 | App: alfa-03
+-
+	18:18:53 hs. | Acontecido: dd
+
+	--05-06-2023--
+#-fin-log-#
+
+05-06-2023 | App: alfa-03
+-
+	18:20:55 hs. | Acontecido: 
+
+	--05-06-2023--
+#-fin-log-#
+
+05-06-2023 | App: alfa-03
+-
+	18:23:30 hs. | Acontecido: 
+
+	--05-06-2023--
+#-fin-log-#
+
+05-06-2023 | App: alfa-03
+-
+	18:23:39 hs. | Acontecido: 
+
+	--05-06-2023--
+#-fin-log-#
+
+05-06-2023 | App: alfa-03
+-
+	18:23:52 hs. | Acontecido: 
+
+	--05-06-2023--
+#-fin-log-#
+
+05-06-2023 | App: alfa-03
+-
+	18:24:13 hs. | Acontecido: 
+
+	--05-06-2023--
+#-fin-log-#
+
+05-06-2023 | App: alfa-03
+-
+	18:25:15 hs. | Acontecido: 
+
+	--05-06-2023--
+#-fin-log-#
+
+05-06-2023 | App: alfa-03
+-
+	18:27:58 hs. | Acontecido: 
+
+	--05-06-2023--
+#-fin-log-#
+
+05-06-2023 | App: alfa-03
+-
+	18:28:53 hs. | Acontecido: 
+
+	--05-06-2023--
+#-fin-log-#
+
+05-06-2023 | App: alfa-03
+-
+	18:29:16 hs. | Acontecido: 
+
+	--05-06-2023--
+#-fin-log-#
+
+05-06-2023 | App: alfa-03
+-
+	18:40:00 hs. | Acontecido: fffffffffffffffffffffffffffffffffffff
+	ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+	ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+	f
+	f
+	f
+	f
+	f
+	f
+	f
+	f
+	f
+	f
+	f
+	f
+	f
+	f
+	f
+	f
+	f
+	
+
+	--05-06-2023--
+#-fin-log-#
+
+05-06-2023 | App: alfa-03
+-
+	18:41:00 hs. | Acontecido: dffffffffffffffffffffffffffffffffffff
+	ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+e
+
+
+	--05-06-2023--
+#-fin-log-#
+
+06-06-2023 | App: alfa-03
+-
+	07:06:20 hs. | Espectativas: Beta!!!
 -

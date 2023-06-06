@@ -24,8 +24,11 @@ class HoFe:
 __author__ = "Gabriel Molina"
 __maintainer__ = "Gabriel Molina"
 __email__ = "g-abox@hotmail.com"
-__version__ = "alfa-03"
+__version__ = "Beta-01"
 __copyright__ = f"Copyright {HoFe.fecha()}"
+
+global RUTA_REGISTRO
+RUTA_REGISTRO = os.path.join(os.path.dirname(__file__), 'registro_trabajo.txt')
 
 
 def ver_ult_lin():
@@ -38,15 +41,20 @@ def ver_ult_lin():
 
 
 def formateador(mensaje_m:str, salto:int) -> str:
-    '''Inserta los saltos de linea'''
+    '''
+    Inserta los saltos de linea.
+    Había olvidado que los str son inmutables...
+    ..debería usar usar listas para esto
+    '''
     linea = ""
     log = ""
     ultima =""
     nlinea = 0
 
     # n de lineas completas. (la última suele no serlo!)
-    nlinenteras = int(len(mensaje_m)/salto)
-    
+    #nlinenteras = int(len(mensaje_m)/salto)
+    nlinenteras = len(mensaje_m) // salto
+
     # bucle recorre el mensaje y corta en lineas
     # ! -> para no cortar última linea: segundo if
     for i in mensaje_m:
@@ -61,11 +69,32 @@ def formateador(mensaje_m:str, salto:int) -> str:
 
     return log
 
+def formateador_opt(mensaje_m: str, salto: int) -> str:
+    '''Había olvidado que los str son inmutables...
+    >Es mejor usar usar listas para esto.
+    > "//" es un operador que devuelve el resul entero de
+    la dividisión.'''
+    lineas = []
+    linea_actual = ""
+    
+    for palabra in mensaje_m.split():
+        if len(linea_actual) + len(palabra) + 1 <= salto:
+            linea_actual += palabra + " "
+        else:
+            lineas.append("\t" + linea_actual.strip())
+            linea_actual = palabra + " "
+    
+    if linea_actual:
+        lineas.append("\t" + linea_actual.strip())
+    
+    log = "\n".join(lineas)
+    return log
+
+
 class LogsRegistro:
     '''Metodos de registro y su configuración'''
     def __init__(self):
-        ruta_main = os.path.dirname(__file__)
-        self.archivo = os.path.join(ruta_main, 'registro_trabajo.txt')
+        self.archivo = RUTA_REGISTRO
         self.divisor = '-\n'
         self.final = "\n#-fin-log-#\n"
         self.h_corte = 12
@@ -95,7 +124,6 @@ class LogsRegistro:
                 print(log)
                 archivo.write(f'{log}\n\t--{HoFe.fecha()}--{self.final}')
     
-# NO ESTOY PUDIENDO HACER UN SALTO DE LINEA QUE NO CORTE LA ULTIMA LINEA
 
 if __name__ == "__main__":
     print("")

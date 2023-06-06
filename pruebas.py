@@ -1,6 +1,7 @@
 import time
+import subprocess
 
-from  modelo import HoFe
+from  modelo import HoFe, RUTA_REGISTRO
 # algoritmo para salto de lineas
 mensaje = "123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345-12345fff"
 
@@ -50,3 +51,51 @@ with open('registro_trabajo.txt', 'r') as archivo:
         ultima_linea = linea
 
 print('\n\t-\n')
+
+
+
+def formateador(mensaje_m:str, salto:int) -> str:
+    '''Inserta los saltos de linea. OBSOLETA'''
+    linea = ""
+    log = ""
+    ultima =""
+    nlinea = 0
+
+    # n de lineas completas. (la última suele no serlo!)
+    nlinenteras = int(len(mensaje_m)/salto)
+    
+    # bucle recorre el mensaje y corta en lineas
+    # ! -> para no cortar última linea: segundo if
+    for i in mensaje_m:
+        linea = linea + i
+        if len(linea) == salto:
+            log = log + "\t" + linea + "\n"
+            linea = ""
+            nlinea = nlinea + 1
+        if nlinea >= nlinenteras:
+            ultima = ultima + i
+    log = log + "\t" + ultima
+
+    return log
+
+def fom(mensaje_m: str, salto: int) -> str:
+    lineas = []
+    linea_actual = ""
+    
+    for palabra in mensaje_m.split():
+        if len(linea_actual) + len(palabra) + 1 <= salto:
+            linea_actual += palabra + " "
+        else:
+            lineas.append("\t" + linea_actual.strip())
+            linea_actual = palabra + " "
+    
+    if linea_actual:
+        lineas.append("\t" + linea_actual.strip())
+    
+    log = "\n".join(lineas)
+    return log
+
+def abrir_registro():
+    subprocess.run(['notepad.exe', RUTA_REGISTRO])
+
+abrir_registro()
