@@ -49,9 +49,9 @@ def finlog(intvar):
 
 def formateador(mensaje_m:str, salto:int) -> str:
     '''
-    Inserta los saltos de linea.
-    Había olvidado que los str son inmutables...
-    ..debería usar usar listas para esto
+    OBSOLETO>>> Inserta los saltos de linea. Este algoritmo es mío,
+    sin embargo, es ineficiente y además corta mal las palabras,
+    y duplica caracteres. <<<<OBSOLETO.
     '''
     linea = ""
     log = ""
@@ -80,7 +80,7 @@ def formateador_opt(mensaje_m: str, salto: int) -> str:
     '''Había olvidado que los str son inmutables...
     >Es mejor usar usar listas para esto.
     > "//" es un operador que devuelve el resul entero de
-    la dividisión.'''
+    la dividisión. Esto lo generó chatGPT:'''
     lineas = []
     linea_actual = ""
     
@@ -105,7 +105,7 @@ class LogsRegistro:
         self.divisor = '-\n'
         self.final = "\n#-fin-log-#\n"
         self.h_corte = 12
-        self.salto = 64
+        self.salto = 80
         # la fecha y la version solo se imprime a la mañana
         ult = ver_ult_lin()
         if not ult == self.divisor:
@@ -118,14 +118,14 @@ class LogsRegistro:
         if HoFe.h() < self.h_corte:
             mensaje_m = f'{HoFe.hora()} | Mañana: ' + mensaje
             print(mensaje_m)
-            log = formateador(mensaje_m, self.salto)
+            log = formateador_opt(mensaje_m, self.salto)
             with open(self.archivo , 'a') as archivo:
                 print("esto es lo que se guarda:\n")
                 print(log)
                 archivo.write(f'{log}' + self.divisor)
         else:
             mensaje_m = f'{HoFe.hora()} | Tarde: ' + mensaje
-            log = formateador(mensaje_m, self.salto)
+            log = formateador_opt(mensaje_m, self.salto)
             with open(self.archivo , 'a') as archivo:
                 print("esto es lo que se guarda:\n")
                 print(log)
