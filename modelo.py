@@ -24,23 +24,28 @@ class HoFe:
 __author__ = "Gabriel Molina"
 __maintainer__ = "Gabriel Molina"
 __email__ = "g-abox@hotmail.com"
-__version__ = "Beta-02"
+__version__ = "Beta-03"
 __copyright__ = f"Copyright {HoFe.fecha()}"
 
-global RUTA_REGISTRO
+global RUTA_REGISTRO, HCORTE
 RUTA_REGISTRO = os.path.join(os.path.dirname(__file__), 'registro_trabajo.txt')
-
+HCORTE = 12
 
 def ver_ult_lin():
     '''Esta funcion verifica si el ultimo log es "self.divisor"'''
-    with open('registro_trabajo.txt', 'r') as archivo:
-        ultima_linea = None
-        for linea in archivo:
-            ultima_linea = linea
-    return ultima_linea
+    ultima_linea = None
+    try:
+        with open('registro_trabajo.txt', 'r', encoding="utf-8") as archivo:
+            for linea in archivo:
+                ultima_linea = linea
+        return ultima_linea
+    except:
+        with open('registro_trabajo.txt', 'a', encoding="utf-8") as archivo:
+            archivo.write(f"===   REGISTRO ACTIVIDAD   === \n\t-Creado: {HoFe.fecha()}\n\t v.: {__version__}\n")
+        return ultima_linea
 
 def finlog(intvar):
-    if HoFe.h() < 12:
+    if HoFe.h() < HCORTE:
         intvar.set(value=0)
     else:
         intvar.set(value=1)
@@ -104,13 +109,13 @@ class LogsRegistro:
         self.archivo = RUTA_REGISTRO
         self.divisor = '-\n'
         self.final = "\n#-fin-log-#\n"
-        self.h_corte = 12
+        self.h_corte = HCORTE
         self.salto = 80
         # la fecha y la version solo se imprime a la mañana
         ult = ver_ult_lin()
         if not ult == self.divisor:
-            with open(self.archivo , 'a') as archivo:
-                archivo.write(f'\n{HoFe.fecha()} | App: {__version__}\n{self.divisor}')
+            with open(self.archivo , 'a', encoding="utf-8") as archivo:
+                archivo.write(f'\n{HoFe.fecha()} | v.: {__version__}\n{self.divisor}')
 
 
     def entrada_log(self, mensaje:str, checkbotv:int):        
@@ -119,20 +124,20 @@ class LogsRegistro:
             mensaje_m = f'{HoFe.hora()} | Mañana: ' + mensaje
             print(mensaje_m)
             log = formateador_opt(mensaje_m, self.salto)
-            with open(self.archivo , 'a') as archivo:
+            with open(self.archivo , 'a', encoding="utf-8") as archivo:
                 print("esto es lo que se guarda:\n")
                 print(log)
-                archivo.write(f'{log}' + self.divisor)
+                archivo.write(f'{log}\n' + self.divisor)
         else:
             mensaje_m = f'{HoFe.hora()} | Tarde: ' + mensaje
             log = formateador_opt(mensaje_m, self.salto)
-            with open(self.archivo , 'a') as archivo:
+            with open(self.archivo , 'a', encoding="utf-8") as archivo:
                 print("esto es lo que se guarda:\n")
                 print(log)
                 if checkbotv == 1:
                     archivo.write(f'{log}\n\t--{HoFe.fecha()}--{self.final}')
                 else:
-                    archivo.write(f'{log}' + self.divisor)
+                    archivo.write(f'{log}\n' + self.divisor)
     
 
 if __name__ == "__main__":
